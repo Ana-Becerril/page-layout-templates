@@ -1,0 +1,134 @@
+
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+body{
+    font-family: Roboto;
+    font-size: x-large;
+    text-align: center;
+    overflow-x: hidden;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-template-rows:50% 50%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.container div{
+    border: 1px solid rgb(179, 179, 179);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.layout1{
+    display: grid;
+    min-width: 0;
+    grid-template-columns: repeat(1fr, 4);
+    grid-template-rows: 20% 10% 60%;
+    grid-column-gap: 10px;
+    grid-row-gap:15px;
+    grid-template-areas: 
+      "header header header header"
+      ". title title ."
+      "main-a main-a main-b main-b";
+      padding: 5px;
+  }
+
+ .item-a {
+    grid-area: header;
+    background-color: rgb(114, 12, 161);
+    overflow: hidden;  
+    min-width: 0;
+  }
+  .item-b {
+    grid-area: title;
+    background-color: rgb(160, 85, 190);
+    min-width: 0
+  }
+  .item-c {
+    grid-area: main-a;
+    background-color: rgb(201, 7, 207);
+    min-width: 0
+  }
+  .item-d {
+    grid-area: main-b;
+    background-color: rgb(201, 7, 207);
+    min-width: 0
+  }
+
+  .layout2{
+    display: grid;
+    min-width: 0;
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: 20% 35% 35%;
+    grid-column-gap: 10px;
+    grid-row-gap:15px;
+    grid-template-areas: 
+      "header header header"
+      "main main main-a"
+      "main main main-b";
+      padding: 5px;
+  }
+
+ .item-a2 {
+    grid-area: header;
+    background-color: rgb(114, 12, 161);
+    overflow: hidden;  
+    min-width: 0;
+  }
+  .item-b2 {
+    grid-area: main;
+    background-color: rgb(160, 85, 190);
+    min-width: 0
+  }
+  .item-c2 {
+    grid-area: main-a;
+    background-color: rgb(201, 7, 207);
+    min-width: 0
+  }
+  .item-d2 {
+    grid-area: main-b;
+    background-color: rgb(201, 7, 207);
+    min-width: 0
+  }
+
+  .layout3{
+    display: grid;
+    min-width: 0;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 20% 35% 35%;
+    grid-column-gap: 10px;
+    grid-row-gap:15px;
+    grid-template-areas: 
+      "navigation header header header"
+      "navigation main main main"
+      "navigation main main main";
+      padding: 5px;
+  }
+
+ .item-a3 {
+    grid-area: header;
+    background-color: rgb(114, 12, 161);
+    overflow: hidden;  
+    min-width: 0;
+  }
+  .item-b3 {
+    grid-area: navigation;
+    background-color: rgb(160, 85, 190);
+    min-width: 0
+  }
+  .item-c3, .item-d3, .item-e3, .item-f3, .item-g3, .item-h3 {
+    grid-area: main;
+    background-color: rgb(201, 7, 207);
+    min-width: 0
+  }
+  
