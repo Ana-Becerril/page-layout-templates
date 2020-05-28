@@ -103,15 +103,14 @@ body{
 
   .layout3{
     display: grid;
-    min-width: 0;
-    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-columns: 24% 24% 24% 24%;
     grid-template-rows: 20% 35% 35%;
     grid-column-gap: 10px;
     grid-row-gap:15px;
     grid-template-areas: 
       "navigation header header header"
-      "navigation main main main"
-      "navigation main main main";
+      "navigation one two three"
+      "navigation four five six";
       padding: 5px;
   }
 
@@ -126,9 +125,45 @@ body{
     background-color: rgb(160, 85, 190);
     min-width: 0
   }
-  .item-c3, .item-d3, .item-e3, .item-f3, .item-g3, .item-h3 {
-    grid-area: main;
-    background-color: rgb(201, 7, 207);
-    min-width: 0
+
+  .item-c3{
+      grid-area:one;
+      background-color: rgb(201, 7, 207);
+      min-width: 0
+
+  }
+
+  .item-d3{
+      grid-area:two;
+      background-color: rgb(201, 7, 207);
+      min-width: 0
+
   }
   
+  .item-e3{
+      grid-area:three;
+      background-color: rgb(201, 7, 207);
+      min-width: 0
+
+  }
+
+  .item-f3{
+      grid-area:four;
+      background-color: rgb(201, 7, 207);
+      min-width: 0
+
+  }
+
+  .item-g3{
+      grid-area:five;
+      background-color: rgb(201, 7, 207);
+      min-width: 0
+
+  }
+
+  .item-h3{
+      grid-area:six;
+      background-color: rgb(201, 7, 207);
+      min-width: 0
+
+  }
