@@ -44,7 +44,7 @@ body{
 
  .item-a {
     grid-area: header;
-    background-color: rgb(114, 12, 161);
+    background-color: rgb(184, 15, 170);
     overflow: hidden;  
     min-width: 0;
   }
@@ -52,7 +52,7 @@ body{
   #b-pading {
       padding: 0;
       grid-area: title;
-      background-color: rgb(160, 85, 190);
+      background-color: rgb(235, 100, 204);
       min-width: 0;
       overflow: hidden; 
   }
@@ -83,13 +83,13 @@ body{
 
  .item-a2 {
     grid-area: header;
-    background-color: rgb(114, 12, 161);
+    background-color: rgb(184, 15, 170);
     overflow: hidden;  
     min-width: 0;
   }
   .item-b2 {
     grid-area: main;
-    background-color: rgb(160, 85, 190);
+    background-color: rgb(235, 100, 204);
     min-width: 0;
   }
   .item-c2 {
@@ -117,12 +117,12 @@ body{
 
  .item-a3 {
     grid-area: header;
-    background-color: rgb(114, 12, 161);
+    background-color: rgb(184, 15, 170);
     min-width: 0;
   }
   .item-b3 {
     grid-area: aside;
-    background-color: rgb(160, 85, 190);
+    background-color: rgb(235, 100, 204);
     min-width: 0
   }
 
@@ -156,14 +156,14 @@ body{
 
   .item-g3{
       grid-area:five;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
 
   }
 
   .item-h3{
       grid-area:six;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
 
   }
@@ -182,42 +182,42 @@ body{
 
   .item-a4 {
     grid-area: header;
-    background-color: rgb(114, 12, 161);
+    background-color: rgb(184, 15, 170);
     min-width: 0;
   }
   .item-b4 {
     grid-area: aside-a;
-    background-color: rgb(160, 85, 190);
+    background-color: rgb(235, 100, 204);
     min-width: 0
   }
 
   .item-l4{
       grid-area: aside-b;
-      background-color: rgb(160, 85, 190);
+      background-color: rgb(235,100, 204);
       min-width: 0
   }
 
   .item-c4{
       grid-area:one;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
   }
 
   .item-d4{
       grid-area:two;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
   }
   
   .item-e4{
       grid-area:three;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
   }
 
   .item-f4{
       grid-area:four;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245,30, 198);
       min-width: 0
   }
 
