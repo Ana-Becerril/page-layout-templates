@@ -59,12 +59,12 @@ body{
 
   .item-c {
     grid-area: main-a;
-    background-color: rgb(201, 7, 207);
+    background-color: rgb(245, 30, 198);
     min-width: 0;
   }
   .item-d {
     grid-area: main-b;
-    background-color: rgb(201, 7, 207);
+    background-color: rgb(245, 30, 198);
     min-width: 0;
   }
 
@@ -94,12 +94,12 @@ body{
   }
   .item-c2 {
     grid-area: main-a;
-    background-color: rgb(201, 7, 207);
+    background-color: rgb(245, 30, 198);
     min-width: 0;
   }
   .item-d2 {
     grid-area: main-b;
-    background-color: rgb(201, 7, 207);
+    background-color: rgb(245, 30, 198);
     min-width: 0
   }
 
@@ -128,28 +128,28 @@ body{
 
   .item-c3{
       grid-area:one;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
 
   }
 
   .item-d3{
       grid-area:two;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
 
   }
   
   .item-e3{
       grid-area:three;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
 
   }
 
   .item-f3{
       grid-area:four;
-      background-color: rgb(201, 7, 207);
+      background-color: rgb(245, 30, 198);
       min-width: 0
 
   }
